@@ -19,4 +19,4 @@ for followee in profile.get_followees():
 list(set(following_list) - set(follow_list))
 
 # Listar que te seguem, mas você não segue que você segue, mas não seguem você
-list(set(following_list) - set(follow_list))
+list(set(follow_list) - set(following_list))
